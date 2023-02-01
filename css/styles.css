@@ -69,28 +69,20 @@ body{
   background-color: #fff;
 
  }
-
+.white-text{
+  color: #fff;
+}
  .home-section {
   width: 100%;
   height: 80vh;
   color: white;
-  background-color: #000;
   padding-top: 0px;
   margin-top: 0px;
-  background: url("../assets1/img/hero-bg.jpg") top center fixed;
- 
+  background: url("../assets/img/hero-bg.jpg") top center fixed;
   background-size: cover;
   position: relative;
 }
-.home h1{
-  color: #fff;
-}
-.big-heading{
-  color: white;
-}
-.home h3{
-  color: #fff;
-}
+
 .home-section:before {
   content: "";
   color: #fff;
@@ -101,9 +93,20 @@ body{
   left: 0;
   right: 0;
 }
+
 .color-nav{
   background: rgba(55, 64, 85, 0.9);
 
+}
+.nav-links{
+  padding-left: 600px;
+}
+.nav-link{
+  color: #fff;
+}
+.nav-link:hover{
+  color:yellow;
+  transition: 0.5s;
 }
 .icon-scroll{
   border-radius: 70px;
@@ -145,47 +148,18 @@ filter: grayscale(100);
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
-
+.count-text{
+ margin: 10px;
+ margin-left: 15px;
+}
 .counters span {
   font-size: 48px;
   display: block;
   color: #414c64;}
-.counters strong {
-  padding: 0;
-  margin: 40px 0px 20px 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
- /* ------------------------------------------------------------added --------------------------------------------------------------------*/
-.img{
-  width: 400px;
-  border-radius: 10%;
-  height: 400px;
-}
-.faq h3{
-  color:black;
+.call-to-action p{
+  color:#fff;
 
 }
-#team h{
-  color: #000;
-}
-.img-author {
-  width: 50px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-.li{
-  margin: 10px;
-}
-.icon{
-  margin-right:  10px;
-  border-radius: 100%;
-  background-color: #008374;
-  color:white;
-  display: inline-block;
-
-}
-
 .icon-serv{
   z-index: 2;
   margin:  4px;
@@ -275,23 +249,48 @@ background-color: blue;
 color:#fff;
 background-color: skyblue;
 }
+.faq h3{
+  color:black;
 
+}
+#team h{
+  color: #000;
+}
+.team-img{
+  border-radius: 10%;
+  width: 60%;
+  height: 60%;
+}
+ /* ------------------------------------------------------------added --------------------------------------------------------------------*/
+.img{
+  width: 400px;
+  border-radius: 10%;
+  height: 400px;
+}
 
+.img-author {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.li{
+  margin: 10px;
+}
+.icon{
+  margin-right:  10px;
+  border-radius: 100%;
+  background-color: #008374;
+  color:white;
+  display: inline-block;
 
+}
 
 .icon-testomonial{
   background-color: #fff;
   color: yellow;
 }
-.grey-section{
-  background-color:#f6f6f6;
-  box-shadow: black;
-  padding: 20px;
-  padding-bottom: 30px;
-  padding-top: 20px;
-  margin: 20px;
-}
-/* works */
+
+
 .icon-pricing{
   z-index: 2;
   margin:  4px;
@@ -303,7 +302,7 @@ background-color: skyblue;
   font-size: 35px;
 
 }
-/* works */
+
 .contact-icon{
   border-radius: 50px;
   padding: 15px;
@@ -315,15 +314,11 @@ background-color: skyblue;
   color:#00796B;
 
 }
-.team-img{
-  border-radius: 10%;
-  width: 60%;
-  height: 60%;
-}
+
 
 .column{
 
-  border-color: #008374;
+  border-color: #d6d6d6;
   size: 10%;
 }
 
@@ -398,28 +393,25 @@ color:#00796B;
   margin: 8px;
  }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   font-family:  "Montserrat", sans-serif;
   color:#fff
 }
 #services h2{
   color:#000
 }
-#Rec
+#footer p{
+  color:white;
+}
+p{
+  color:#000
+}
 h5{
   color: #000;
   size: 5px;
 
 }
-p{
-  color: grey;
-}
-.testimonial-p{
-  color: #000;
-}
-h4{
-  color:#000;
-}
+
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
@@ -433,35 +425,6 @@ h4{
   padding-left: 98%;
   bottom: 15px;
 }
-/* .back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #ffc107;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-}
-
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-top:hover {
-  background: #ffcb30;
-  color: #fff;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-} */
 
 .accordion-css{
   color: #000;
@@ -507,10 +470,7 @@ h2 {
   background-color: #414c64;
   color:#fff;
 }
-.call-to-action h3{
- 
-  color:#fff;
-}
+
 
 .num{
   color: #00796B;
@@ -519,23 +479,12 @@ h2 {
 
 
 /* navigation */
-.navbar{
- display: inline;
-background-color: #008374;
-}
-.navbar-brand {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: bold;
-  display: inline;
-  margin-right: 10000px;
-}
 
 .icon-box{
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: yellow;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -567,7 +516,7 @@ background-color: #008374;
 
 }
 .icon-box:hover {
-  background: #009786;
+  background: yellow;
 }
 
 @media (min-width: 1200px) {
@@ -619,10 +568,11 @@ background-color: #008374;
 /* <!-- Call to Action --> */
 
 .icon-team {
+  background-color: white;
+  color:black;
   margin: 20px 10px;
   padding: 5px;
-  border-color: grey;
-  border-style: solid;
+
   border-width: 5%;
   border-radius: 100%;
 color: grey;
@@ -631,10 +581,8 @@ color: grey;
   color: #000;
 }
 .icon-team:hover{
-border-color: #008374;
-border-style: solid;
-  background-color: #fff;
-  color:#008374;
+  background-color: #000;
+  color:yellow;
 }
 
 .icon-footer {
@@ -652,15 +600,7 @@ border-style: solid;
   background-color: #008374;
   color:#fff;
 }
-/* .icon-pricing{
-border-radius: 100%;
-  border-style: solid;
-  background-color:#d9d9d9;
-  color: #414c64;
-  font-size: 40px;
 
-
-} */
 a{
   color: #d9d9d9;
 }
@@ -679,9 +619,7 @@ a:hover{
 color: #fff;
 }
 
-.footer h4{
-  color: white;
-}
+
 .stretched-link{
   color:#00796B ;
 }
@@ -730,8 +668,8 @@ color: #fff;
   visibility: visible;
   opacity: 1;
 }
-
 .footer{
+  
   background-color: #000;
   padding: 0px;
 }
