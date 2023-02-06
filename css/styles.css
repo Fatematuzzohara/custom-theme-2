@@ -326,9 +326,11 @@ background-color:  #ffc107;}
   color: #ffcb30;
 }
 
-
+#footer a{
+  text-decoration:none;
+}
 .footer-links a{
-
+  text-decoration:none;
   color: #000;
   }
   .footer button{
@@ -725,7 +727,8 @@ border-style: solid;
 }
 
 a{
-  color: #d9d9d9;
+  text-decoration:none;
+  color: #70788a;
 }
 a:hover{
   color: #fff;
