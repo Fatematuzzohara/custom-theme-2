@@ -68,20 +68,23 @@ h5{
 }
 /* navbar */
 
-.color-nav-scrolled{
+.color-nav{
   background: rgba(55, 64, 85, 0.9);
   padding: 15px 0;
+}
+.navbar-scrolled{
+  color: transparent;
 }
 
 .nav-item{
   padding-left: 10px;
   
 }
-/* .navbar-nav{
+.navbar-nav{
  
-  padding-left: 380px;
+  justify-content: flex-end;
 
-} */
+}
 
 .nav-link{
   color: #fff;
@@ -188,7 +191,8 @@ h5{
 }
 .home-section p{
   margin: auto;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .marg{
   margin: auto;
