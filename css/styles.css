@@ -39,7 +39,7 @@ h5{
   size: 5px;
 
 }
-/* header */
+/*--------------------------------------------------------------header------------------------------------------------------*/
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -66,7 +66,9 @@ h5{
   color: #fff;
   max-height: 40px;
 }
-/* navbar */
+
+
+/*--------------------------------------------------------------navbar------------------------------------------------------*/
 
 .navbar{
   background: #414c64;
@@ -120,9 +122,7 @@ h5{
   margin-right: 20px;
 }
 
-
-
-
+/*--------------------------------------------------------------about-section------------------------------------------------------*/
 
 #about{
   padding: 0;
@@ -132,6 +132,17 @@ h5{
   width: 400px;
   height: 400px;
 }
+.icon-about{
+  z-index: 2;
+  margin: 0px  4px 0px 0px;
+  border-radius: 100%;
+  background-color:#fff;
+ padding: 10px;
+  display: inline-block;
+  color: #70788a;
+  font-size: 55px;
+  
+  }
 
 .button{
   padding: 14px 40px;
@@ -179,17 +190,6 @@ z-index: 1;
   position: relative;
 }
 
-/* .button .home-section:before {
-  content: "";
-  opacity: 1;
-  background: rgba(45, 53, 69, 0.7);
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-} */
 .home-section:before {
   content: "";
   background: rgba(45, 53, 69, 0.7);
@@ -239,7 +239,7 @@ z-index: 1;
 
  
  }
-/* counter */
+ /*--------------------------------------------------------------counter------------------------------------------------------*/
 .counts {
   padding: 40px 0;
   font-size: 48px;
@@ -263,7 +263,12 @@ z-index: 1;
   color:#fff;
 
 }
-/* icons */
+ /*--------------------------------------------------------------services------------------------------------------------------*/
+
+#services h2{
+  color:#000
+}
+
 .icon-serv{
   margin:  4px;
   border-radius: 100%;
@@ -275,17 +280,6 @@ z-index: 1;
   font-size: 35px;
   
   }
-  .icon-about{
-    z-index: 2;
-    margin: 0px  4px 0px 0px;
-    border-radius: 100%;
-    background-color:#fff;
-   padding: 10px;
-    display: inline-block;
-    color: #70788a;
-    font-size: 55px;
-    
-    }
 
 .icon-serv:hover{
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
@@ -343,7 +337,7 @@ background-color: blue;
 color:#fff;
 background-color: rgb(43, 113, 141);
 }
-/* frequently asked questions */
+/*--------------------------------------------------------------frequently asked questions------------------------------------------------------*/
 .faq h3{
   color: #000;
   font-size: 32px;
@@ -359,9 +353,7 @@ background-color: rgb(43, 113, 141);
 
 
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
+/*--------------------------------------------------------------Clients------------------------------------------------------*/
 .logos {
   padding: 15px 0;
   text-align: center;
@@ -385,8 +377,8 @@ background-color: rgb(43, 113, 141);
     max-width: 40%;
   }
 }
+/*-------------------------------------------------------------- team -------------------------------------------------------------*/
 
-/* team */
 #team h{
   color: #000;
 }
@@ -396,26 +388,12 @@ background-color: rgb(43, 113, 141);
   z-index: 2;
   height: 60%;
 }
-/* testimonials */
-.testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: 30px 180px 0 0;
-  position: relative;
-  border: 6px solid #fff;
-}
-#testimonials h2 {
-  font-size: 28px;
-  font-size: 2 rem;
-  line-height: 1.5;
-  color: #111;
-}
 .icon-div a {
-  z-index: 3;
+  z-index: 30;
   transition: color 0.3s;
   color: #414c64;
   margin: 0 10px;
-  top: -30px;
+  top: 30px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -431,6 +409,26 @@ background-color: rgb(43, 113, 141);
 .icon-div a:hover{
 color:#ffcb30
 }
+/*-------------------------------------------------------------- testimonials  -------------------------------------------------------------*/
+
+
+.li{
+  margin: 10px;
+}
+
+.icon-testomonial{
+  background-color: #fff;
+  color: yellow;
+}
+.testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: 30px 180px 0 0;
+  position: relative;
+  border: 6px solid #fff;
+}
+
+
 .quote-icon-left{
   color: #ffe7a0;
   font-size: 26px;
@@ -446,7 +444,8 @@ color:#ffcb30
 }
 .swiper-pagination-bullet{
 background-color:  #ffc107;}
-/* footer */
+/*-------------------------------------------------------------- footer -------------------------------------------------------------*/
+
 .footer-links ul {
   color: #000;
   list-style: none;
@@ -493,8 +492,8 @@ background-color:  #ffc107;}
   margin: 0;
   color:#f4f5f8;
 }
+/*-------------------------------------------------------------- scroll-button  -------------------------------------------------------------*/
 
-/* scroll-button */
 
 
   :root {
@@ -531,13 +530,13 @@ background-color:  #ffc107;}
     opacity: 1;
   }
 
+/*-------------------------------------------------------------- pricing  -------------------------------------------------------------*/
 
-
-  /* Pricing */
 #pricing h2{
   color:black
 
 }
+
   .little-box{
     color: #000;
     background-color: #f8f8f8;
@@ -672,36 +671,23 @@ background-color:  #ffc107;}
   background-color: #f6f6f6;
 }
 
+/*--------------------------------------------------------------testimonials  -------------------------------------------------------------*/
 
 
-/* testimonials */
+#testimonials h2 {
+  font-size: 28px;
+  font-size: 2 rem;
+  line-height: 1.5;
+  color: #111;
+}
 .img-author {
   width: 50px;
   border-radius: 50%;
   margin-right: 15px;
 }
-.li{
-  margin: 10px;
-}
 
-.icon-testomonial{
-  background-color: #fff;
-  color: yellow;
-}
+/*-------------------------------------------------------------- contact -------------------------------------------------------------*/
 
-
-.icon-pricing{
-  z-index: 2;
-  margin:  4px;
-  border-radius: 100%;
-  background-color:#d9d9d9;
- padding: 15px;
-  display: inline-block;
-  color: #70788a;
-  font-size: 35px;
-
-}
-/* contact */
 .contact h4{
   color:rgb(87, 68, 68)
 }
@@ -739,9 +725,6 @@ background-color:  #ffc107;}
   color: #fff;
 }
 
-#services h2{
-  color:#000
-}
 
 .accordion-css{
   color: #000;
@@ -768,7 +751,8 @@ background-color:  #ffc107;}
 .align-items-left{
   text-align: left;
 }
-/* headings */
+/*-------------------------------------------------------------- headings  -------------------------------------------------------------*/
+
 .big-heading {
   font-family: "Montserrat", sans-serif;
   font-size: 1.0 rem;
@@ -788,7 +772,8 @@ background-color:  #ffc107;}
 .margin{
   margin: 70px  100px;
 }
-/* color-section  */
+/*-------------------------------------------------------------- color-section  -------------------------------------------------------------*/
+
  .color-section{
    background-color: #414c64;
    color: white;
@@ -810,7 +795,8 @@ background-color:  #ffc107;}
   background-color: #414c64;
   color:#fff;
 }
-/* navigation */
+/*-------------------------------------------------------------- navigation -------------------------------------------------------------*/
+
 
 .icon-box{
   padding: 60px 30px;
@@ -872,14 +858,9 @@ background-color:  #ffc107;}
 }
 
 
-/* title section */
-#title .container-fluid {
-  padding: 26px 1px 26px;
-  text-align: center;
-}
+/*--------------------------------------------------------------Call to Action----------------------------------------------*/
 
 
-/* <!-- Call to Action --> */
 
 .icon-team {
   background-color: white;
@@ -920,9 +901,7 @@ border-style: solid;
 .copyright {
   color: #fff;
 }
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+/*--------------------------------------------------------------Portfolio----------------------------------------------------*/
 
 
 .portfolio h2{
@@ -1049,9 +1028,7 @@ border-style: solid;
   bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+/*-------------------------------------------------------------Portfolio Details---------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
 }
